@@ -1,8 +1,9 @@
+#general
 .env
 
+#hardhat
 node_modules
-
-
 cache
 artifacts
 yarn-error.log
+typechain-types
