@@ -4,3 +4,4 @@
 - GovernorContract made with OpenZeppelin wizard
 
 
+- Deployment script with hardhat

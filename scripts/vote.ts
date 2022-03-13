@@ -1,4 +1,5 @@
 import * as fs from "fs"
+// @ts-ignore
 import { network, ethers } from "hardhat"
 import { proposalsFile, developmentChains, VOTING_PERIOD } from "../helper-hardhat-config"
 import { moveBlocks } from "../utils/move-blocks"

@@ -22,3 +22,4 @@ const deployBox: DeployFunction = async function (hre: HardhatRuntimeEnvironment
 }
 
 export default deployBox
+deployBox.tags = ["all", "box"]

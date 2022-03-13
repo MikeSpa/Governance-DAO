@@ -1,5 +1,6 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types"
 import { DeployFunction } from "hardhat-deploy/types"
+// @ts-ignore
 import { ethers } from "hardhat"
 
 const deployGovernanceToken: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
@@ -28,3 +29,4 @@ const delegate = async (governanceTokenAddress: string, delegatedAccount: string
 }
 
 export default deployGovernanceToken
+deployGovernanceToken.tags = ["all", "governor"]

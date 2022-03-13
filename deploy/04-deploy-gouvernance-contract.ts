@@ -26,3 +26,4 @@ const setupContracts: DeployFunction = async function (hre: HardhatRuntimeEnviro
 }
 
 export default setupContracts
+setupContracts.tags = ["all", "setup"]
